@@ -368,7 +368,7 @@ GameJam1702.prototype = $extend(oimo_js_engine_OMain.prototype,{
 					my1[0] += dy1 * dst;
 					if(!p2[0].affected && p21.affected) {
 						if(len < 4) {
-							prob1[0] += 10.005 * (4 - len) / 4;
+							prob1[0] += 0.005 * (4 - len) / 4;
 						}
 					}
 				};
